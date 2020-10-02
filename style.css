@@ -1,0 +1,109 @@
+body{
+  background-image: url("images/wood.jpg");no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.containermain  { width: 800px; margin: 0px auto;}
+.cantainerblock { width: 200px; float: left;  border-radius: 10px;  margin: 20px;   }
+.cantainerblock img { border-radius: 40px; width: 200px;  webkit-box-shadow:0px 0px 5px 3px #00e1ff; 
+    -moz-box-shadow: 0px 0px 5px 3px #00e1ff; 
+    box-shadow: 0px 0px 5px 3px #00e1ff;   }
+.cantainerblock img:hover { cursor:pointer; webkit-box-shadow:0px 0px 5px 5px #CDDC39;
+    -moz-box-shadow: 0px 0px 5px 5px #CDDC39;
+    box-shadow: 0px 0px 5px 5px #CDDC39;  }
+.cantainerblock h2 { color: white; text-align: center; font-size: 20px;}
+.title {
+    margin-top: 0px;
+    display: block;
+	text-align: center;
+    color: #FFFFFF;
+    font-size: 100px;
+    margin-bottom: 15px;
+    
+    font-family: cursive; 
+    text-transform: uppercase;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+    font-weight: 900;
+}
+
+h1{
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  /*font-family: 'Amatic SC', cursive;*/
+  font-family: 'Bevan', cursive;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-shadow: -2px 3px #000;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: white;
+  font-family: 'Bevan', cursive;
+  font-weight: 300;
+  text-shadow: -2px 3px #000;
+  margin-bottom: 5px;
+  margin-top: -15px;
+}
+
+#board{
+  background-color: transparent;
+  width: 720px;
+  height: 530px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin: 0px auto;
+}
+
+
+.card{
+  width: 160px;
+  height: 160px;
+  margin: 10px;
+  float:right;
+  background-image: url("images/back.jpg");
+  background-size: 160px 160px;
+  border-radius: 10px;
+  -moz-box-shadow: -3px 3px 10px #000;
+  -webkit-box-shadow: -3px 3px 10px #000;
+   box-shadow: -3px 3px 10px #000;
+}
+
+
+.card img{
+  display: none;
+}
+
+.card.image img {
+  display: block;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	background: white;
+
+  }
+
+.image.match {
+  width: 160px;
+  height: 160px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+
+/* <div class="cards">Black</div>  */
+/* <div class="cards front">Blue</div>  */
